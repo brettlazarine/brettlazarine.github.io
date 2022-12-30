@@ -6,6 +6,7 @@ html {
 header {
     color: black;
     text-align: center;
+    background: url('https://genetics.tamu.edu/wp-content/uploads/2017/11/2.jpg');
 }
 
 p {
@@ -34,7 +35,7 @@ footer {
     margin: 0 auto;
     text-align: center;
     position: fixed;
-    bottom: 25px;
+    bottom: 0px;
     background-color: black;
     color: white;
 }
