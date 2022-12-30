@@ -11,6 +11,9 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 p {
@@ -41,6 +44,8 @@ footer {
     text-align: center;
     position: fixed;
     bottom: 0px;
+    left: 0px;
+    right: 0px;
     background-color: black;
     color: white;
 }
