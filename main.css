@@ -7,6 +7,10 @@ header {
     color: black;
     text-align: center;
     background: url('https://genetics.tamu.edu/wp-content/uploads/2017/11/2.jpg');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
