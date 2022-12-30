@@ -1,8 +1,23 @@
 html {
     font-size: 16px;
+    background-color: slategray;
 }
 
 header {
-    color: red;
+    color: black;
     text-align: center;
+}
+
+.class h2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.linkedin h2 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#aggie {
+    color: maroon;
 }
