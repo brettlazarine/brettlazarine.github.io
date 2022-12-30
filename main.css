@@ -42,7 +42,7 @@ footer {
     height: 50px;
     margin: 0 auto;
     text-align: center;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0px;
     left: 0px;
     right: 0px;
