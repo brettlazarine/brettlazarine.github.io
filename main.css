@@ -1,6 +1,6 @@
 html {
     font-size: 16px;
-    background-color: slategray;
+    background-color: silver;
 }
 
 header {
@@ -11,13 +11,23 @@ header {
 .class h2 {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .linkedin h2 {
     width: 100%;
     margin: 0 auto;
+    text-align: center;
 }
 
 #aggie {
     color: maroon;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
 }
