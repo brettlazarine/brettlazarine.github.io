@@ -45,11 +45,11 @@ p {
     color: #1890ff;
 }
 
-a#github {
+#github a {
     color: #6e7781;
 }
 
-a#codewars {
+#codewars a {
     color: #dc7069;
 }
 
