@@ -17,7 +17,8 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 75px;
+    left: 0px;
 }
 
 p {
@@ -37,6 +38,13 @@ p {
     padding-bottom: 20px;
 }
 
+.showcase h2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 #aggie {
     color: maroon;
 }
@@ -45,11 +53,11 @@ p {
     color: #1890ff;
 }
 
-#github a {
+#github  {
     color: #6e7781;
 }
 
-#codewars a {
+#codewars  {
     color: #dc7069;
 }
 
