@@ -14,7 +14,10 @@ header {
     top: 0px;
     left: 0px;
     right: 0px;
-    font-size: 75px;
+}
+
+h1 {
+    font-size: 150px;
 }
 
 p {
@@ -40,6 +43,14 @@ p {
 
 #TrueCoders {
     color: #1890ff;
+}
+
+#github:hover {
+    color: #6e7781;
+}
+
+#codewars:hover {
+    color: #dc7069;
 }
 
 footer {
