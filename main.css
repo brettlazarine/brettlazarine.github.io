@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-    font-size: 150px;
+    font-size: 75px;
 }
 
 p {
@@ -45,11 +45,11 @@ p {
     color: #1890ff;
 }
 
-#github:hover {
+#github {
     color: #6e7781;
 }
 
-#codewars:hover {
+#codewars {
     color: #dc7069;
 }
 
