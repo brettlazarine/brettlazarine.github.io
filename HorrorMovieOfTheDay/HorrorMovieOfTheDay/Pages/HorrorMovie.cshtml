@@ -1,0 +1,15 @@
+﻿@page
+@model HorrorMovieAPI
+@{
+    Layout = null;
+}
+@{
+    var key = "2e5aaec53df627a3c2f12b971432f2ef";
+    var movieOfTheDay = HorrorMovieAPI.GetMovieInfo(key);
+    var movieVideo = HorrorMovieAPI.GetVideo(key, movieOfTheDay);
+}
+
+<img src="@movieOfTheDay.poster_path" />
+<video controls width="250" >
+    <source src="@movieVideo" type="video/mp4" />
+</video>

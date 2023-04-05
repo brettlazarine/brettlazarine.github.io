@@ -1,13 +1,30 @@
-html {
+* {
     font-size: 16px;
-    background-color: silver;
+    color : black;
+    background-color: rgb(48, 58, 197);
+    /* border: 1px solid red; */
+    max-width: 100%;
+    width: 1000px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 20%;
+    max-width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    /* color: #02d7f2; */
+    padding: 1px;
 }
 
 header {
-    color: black;
-    text-align: center;
-    background: url('https://genetics.tamu.edu/wp-content/uploads/2017/11/2.jpg');
-    height: 500px;
+    /* color: white; */
+    text-align: left;
+    /* background: url('https://genetics.tamu.edu/wp-content/uploads/2017/11/2.jpg'); */
+    /* height: 500px; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,32 +33,144 @@ header {
     right: 0px;
 }
 
-h1 {
-    font-size: 65px;
+main {
+    margin: 10px;
+    padding-left: 20%;
+    position:relative;
+    left: 20%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.about {
+    /* background-color: #c09f80; */
+    /* color: #f2e900; */
+}
+
+#aboutme {
+    font-size: 30px;
+}
+
+.projects {
+    /* background-color: rgb(94, 1, 1); */
+}
+
+.head-nav > ul {
+    background-color: lightgray;
+    margin: 0px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.head-nav > ul > li {
+    /* display: inline; */
+    text-decoration: none;
+    background-color: lightgray;
+    /* color: #02d7f2; */
+    padding: 15px 0;
+    text-align: center;
+}
+.head-nav ul li a {
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* color: #02d7f2; */
+}
+
+.nav-link:visited {
+    /* color : red; */
+}
+
+.head-nav ul .navabout {
+    background-color: rgb(241, 236, 236);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.head-nav ul .navabout li, .head-nav ul .navabout li a {
+    background-color: rgb(241, 236, 236);
+    font-size: 15px;
+}
+
+.head-nav ul .navprojects {
+    background-color: rgb(241, 236, 236);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.head-nav ul .navprojects li, .head-nav ul .navprojects li a {
+    background-color: rgb(241, 236, 236);
+    font-size: 15px;
+}
+
+#name {
+    font-size: 40px;
+    margin-bottom: 1px;
+    text-align: center;
+}
+
+#dev {
+    margin-top : 1px;
+    text-align: center;
+    font-size: 25px;
 }
 
 p {
     font-size: 20px;
 }
 
-.about h2 {
+#name, #dev, .head-nav > ul > li, .nav-link, .sidenav   {
+    background-color: rgb(241, 236, 236);
+    margin : 0px;
+    /* color: #02d7f2; */
+}
+
+.about h3 {
     width: 100%;
     margin: 0 auto;
     text-align: center;
+    /* color: #f2e900; */
 }
 
-.linkedin h2 {
+.about p, .about ul li {
+    font-size: 20px;
+}
+
+.projects h3 {
     width: 100%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 30px;
 }
 
-.showcase h2 {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding-bottom: 20px;
+#horror {
+    font-size: 25px;
+}
+#taco {
+    font-size: 25px;
+}
+#bestbuy {
+    font-size: 25px;
+}
+#bestbuy ul {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.projectlist li {
+    list-style: none;
+}
+.projectlist li::before {
+    content: "\2023";
+    font-size: 30px;
 }
 
 #aggie {
@@ -62,13 +191,123 @@ p {
 
 footer {
     width: 100%;
-    height: 50px;
-    margin: 0 auto;
+    height: auto;
+    margin-top: 100px;
+    padding-top: 0px;
+    padding-left: 20%;
     text-align: center;
-    /* position: fixed; */
+    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
     background-color: black;
+}
+
+footer ul{
+    width: 1100px;
+    max-width: 100%;
+    background-color: black;
+    text-align: center;
+    list-style: none;
+
+}
+
+footer ul li {
+    background-color: black;
+    display: inline;
+}
+
+footer ul li a {
+    background-color: black;
     color: white;
+
+}
+
+#cs {
+    list-style: none;
+}
+#cs img {
+    width: 30px;
+    height: 30px;   
+}
+
+#python {
+    list-style: none;
+    padding-left: 20px;
+}
+#python img {
+    width: 30px;
+    height: 30px;   
+}
+
+#sql {
+    list-style: none;
+    padding-left: 40px;
+}
+#sql img {
+    width: 30px;
+    height: 30px;   
+}
+
+#js {
+    list-style: none;
+    padding-left: 60px;
+}
+#js img {
+    width: 30px;
+    height: 30px;   
+}
+
+#net {
+    list-style: none;
+    padding-left: 80px;
+}
+#net img {
+    width: 30px;
+    height: 30px;   
+}
+
+#html {
+    list-style: none;
+    padding-left: 100px;
+}
+#html img {
+    width: 30px;
+    height: 30px;   
+}
+
+#css {
+    list-style: none;
+    padding-left: 120px;
+}
+#css img {
+    width: 30px;
+    height: 30px;   
+}
+
+#java {
+    list-style: none;
+    padding-left: 140px;
+}
+#java img {
+    width: 30px;
+    height: 30px;   
+}
+
+#git {
+    list-style: none;
+    padding-left: 160px;
+}
+#git img {
+    width: 30px;
+    height: 30px;   
+}
+
+#bash {
+    list-style: none;
+    padding-left: 180px;
+}
+#bash img {
+    width: 30px;
+    height: 30px;   
 }
