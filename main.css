@@ -80,6 +80,7 @@ a:link {
 .technicals ul {
     list-style-type: none;
     text-align: center;
+    padding-left: 0px;
 }
 
 .technicals ul li {
@@ -112,6 +113,22 @@ a:link {
 .projectlist li::before {
     content: "\2023";
     font-size: 30px;
+}
+
+#repo-link {
+    text-decoration: underline;
+    text-decoration-style:double;
+}
+
+/* horror */
+
+.horror-pic {
+    margin: auto;
+    display: block;
+}
+
+.horror-pic:hover {
+    width: 1000px;
 }
 
 /* footer */

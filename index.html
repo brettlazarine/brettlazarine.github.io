@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="eng">
     <title>Brett Lazarine</title>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="main.css">
     <div class="image-container">
         <body>
             <header>
@@ -53,22 +53,50 @@
                         Below are the projects I have built and continue to work on:
                     </p>
                     <h3 class="project-title" id="horror">Horror Movie of the Day</h4>
-                    <ul class="projectlist">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <p><a id="repo-link" href="https://github.com/brettlazarine/HorrorMovieProject" target="_blank">Horror Movie Repo</a></p>
+					<img src="./Images/HMOTD.png" alt="Horror project screenshot" width="600px"  class="horror-pic" style="margin: auto; display: block">
+					<ul class="projectlist">
+                        <li>
+							Utilized The Movie Database (TMDb) API, iterating through the returned pages to select the single, highest rated horror movie that was released on “today’s date”
+						</li>
+                        <li>
+							Project created in an ASP.NET MVC framework utilizing Visual Studio with the Newtonsoft.JSON NuGet package
+						</li>
+                        <li>
+							The program is written in C#, utilizing separate methods to pull the initial API call to select the movie, and a subsequent call to select the appropriate trailer for the movie
+						</li>
+						<li>
+							HTML and CSS were added to the Index file in order to provide a visual representation of the program’s success
+						</li>
                     </ul>
                     <h3 class="project-title" id="taco">Taco Parser</h4>
+						<p><a id="repo-link" href="https://github.com/brettlazarine/TacoParser" target="_blank">Taco Parser Repo</a></p>
                     <ul class="projectlist">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+							C# .NET application that iterates through an Excel CSV, containing geo-locations of Taco Bells, to determine which two Taco Bells are the furthest away from one another
+						</li>
+                        <li>
+							Utilizes xUnit to test the accuracy of the program
+						</li>
+                        <li>
+							Implements the xUnit and GeoCordinate.NetCore NuGet packages
+						</li>
                     </ul>
                     <h3 class="project-title" id="bestbuy">Best Buy MVC</h4>
+						<p><a id="repo-link" href="https://github.com/brettlazarine/ASPNET" target="_blank">Best Buy MVC Repo</a></p>
                     <ul class="projectlist">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>
+							C# ASP.NET MVC framework that uses both Dapper and MySQL NuGet packages
+						</li>
+                        <li>
+							Connects to a local MySQL Best Buy database, interacted with utilizing both MySQL Workbench and Linq
+						</li>
+                        <li>
+							Created MVC’s to view, update, create, and delete products from the Best Buy database
+						</li>
+						<li>
+							Razor allowed for the implementation of C# in the Views
+						</li>
                         <br>
                         <br>
                     </ul>      
