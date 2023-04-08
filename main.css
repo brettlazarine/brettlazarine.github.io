@@ -120,14 +120,12 @@ a:link {
     text-decoration-style:double;
 }
 
-/* horror */
-
-.horror-pic {
+.project-pic {
     margin: auto;
     display: block;
 }
 
-.horror-pic:hover {
+.project-pic:hover {
     width: 1000px;
 }
 
