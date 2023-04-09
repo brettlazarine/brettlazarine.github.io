@@ -45,9 +45,14 @@ a:link {
     list-style-type: none;
 }
 
-#linkedin , #github {
+#linkedin , #github , #github-contact {
     font-size: 20px;
 }
+
+/* #linkedin {
+    text-decoration: underline;
+    text-decoration-style: double;
+} */
 
 /* name and dev */
 
@@ -93,6 +98,20 @@ a:link {
 }
 
 /* projects */
+
+#github {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+#codewars {
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+#codewars:hover {
+    color: #dc7069; 
+    
+}
 
 #projects {
     font-size: 30px;
